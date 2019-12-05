@@ -13,6 +13,7 @@
 		40177AFC2396A07400B9800B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40177AFB2396A07400B9800B /* Assets.xcassets */; };
 		40177AFF2396A07400B9800B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40177AFE2396A07400B9800B /* Preview Assets.xcassets */; };
 		40177B022396A07400B9800B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40177B002396A07400B9800B /* LaunchScreen.storyboard */; };
+		40177B0C239786E400B9800B /* SleepCalculator.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 40177B0B239786E400B9800B /* SleepCalculator.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		40177AFE2396A07400B9800B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		40177B012396A07400B9800B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		40177B032396A07400B9800B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40177B0B239786E400B9800B /* SleepCalculator.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = SleepCalculator.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				40177AFB2396A07400B9800B /* Assets.xcassets */,
 				40177B002396A07400B9800B /* LaunchScreen.storyboard */,
 				40177B032396A07400B9800B /* Info.plist */,
+				40177B0B239786E400B9800B /* SleepCalculator.mlmodel */,
 				40177AFD2396A07400B9800B /* Preview Content */,
 			);
 			path = BetterRest;
@@ -147,6 +150,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				40177AF62396A06C00B9800B /* AppDelegate.swift in Sources */,
+				40177B0C239786E400B9800B /* SleepCalculator.mlmodel in Sources */,
 				40177AF82396A06C00B9800B /* SceneDelegate.swift in Sources */,
 				40177AFA2396A06C00B9800B /* ContentView.swift in Sources */,
 			);
